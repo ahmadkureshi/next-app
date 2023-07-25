@@ -12,10 +12,15 @@ yarn dev
 pnpm dev
 ```
 
-Step 1: Install all the required packages using npm install
-Step 2: Create .env file on root directory of the project sample file is attached which you can copy and replace your credentials(Follow step 3 and 4 to create credentials) and add on .env file 
-Step 3: Create a mongodb url via [https://www.mongodb.com/atlas/database](https://www.mongodb.com/atlas/database)
-Step 4: Create google cloud oauth credentials via [https://console.cloud.google.com/](https://console.cloud.google.com/) if you want to login with google
+Step 1: Install all the required packages using npm install.
+
+Step 2: Create .env file on root directory of the project sample file is attached which you can copy and replace your credentials(Follow step 3 and 4 to create credentials) and add on .env file.
+
+Step 3: Create a mongodb url via [https://www.mongodb.com/atlas/database](https://www.mongodb.com/atlas/database).
+
+Step 4: Create google cloud oauth credentials via [https://console.cloud.google.com/](https://console.cloud.google.com/) if you want to login with google.
+
+Step 5: Run the command npm run dev // note i am using port 8090 for running the project on that port can be changes from packages.json file.
 
 Open [http://localhost:8090](http://localhost:8090) with your browser to see the result.
 
