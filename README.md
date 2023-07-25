@@ -12,7 +12,12 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 1: Install all the required packages using npm install
+Step 2: Create .env file on root directory of the project sample file is attached which you can copy and replace your credentials(Follow step 3 and 4 to create credentials) and add on .env file 
+Step 3: Create a mongodb url via [https://www.mongodb.com/atlas/database](https://www.mongodb.com/atlas/database)
+Step 4: Create google cloud oauth credentials via [https://console.cloud.google.com/](https://console.cloud.google.com/) if you want to login with google
+
+Open [http://localhost:8090](http://localhost:8090) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
